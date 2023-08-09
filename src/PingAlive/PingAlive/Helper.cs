@@ -27,7 +27,7 @@ namespace PingAlive
 
         public static void ShowSuccess()
         {
-            Console.WriteLine("Success:");
+            Console.WriteLine("Result:");
             Console.WriteLine("- Successfully started ping command (ping -t 194.25.2.129) in a separate window");
             Console.WriteLine("- The ping command is running until you press CTRL+C there or close that window");
             Console.WriteLine();
