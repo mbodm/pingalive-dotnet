@@ -11,7 +11,7 @@ A tiny Windows command-line tool to continuously ping Telekom´s primary DNS ser
 #### Side note:
 There also exists a Rust version and a Go (golang) version of this tool. Those versions are exactly the same tool as this one, just written in Rust or Go. They were written in the past and for the sake of _[insert some weird reason here]_ i just quickly rewrote that rather tiny application in C#/.NET now.
 - For the Rust version have a look at [pingalive](https://github.com/mbodm/pingalive)
-- For the Go (golang) version have a look at [pingalive-go](https://github.com/mbodm/pingalive-go)
+- For the Go version have a look at [pingalive-go](https://github.com/mbodm/pingalive-go)
 
 ### How it works
 - It just executes the Windows `ping` command with `-t 194.25.2.129` as parameters.
