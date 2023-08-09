@@ -4,7 +4,7 @@ A tiny Windows command-line tool to continuously ping Telekom´s primary DNS ser
 ![Screenshot](screenshot.png)
 
 ### What it is
-- It´s a very tiny (~100 lines of code) command line executable for Windows.
+- It´s a very tiny (~100 lines of code) command-line executable for Windows.
 - When executed, it continuously pings a specific server, until closed.
 - It´s used for internet connection testing, for my personal use.
 
