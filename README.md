@@ -9,7 +9,7 @@ A tiny Windows command-line tool to continuously ping Telekom´s primary DNS ser
 - It´s used for internet connection testing, for my personal use.
 
 #### Side note:
-There also exists a Rust version and a Go (golang) version of this tool. Those versions are exactly the same tool as this one, just written in Rust or Go. They were written in the past and for the sake of _[insert some weird reason here]_ i just quickly rewrote that rather tiny application in C#/.NET now.
+There also exists a Rust version and a Go (golang) version of this tool. Those versions are exactly the same tool as this one, just written in Rust or Go. They were written in the past. And for the sake of _[insert some weird reason here]_ i just quickly rewrote that rather tiny application in C#/.NET now.
 - For the Rust version have a look at [pingalive](https://github.com/mbodm/pingalive)
 - For the Go version have a look at [pingalive-go](https://github.com/mbodm/pingalive-go)
 
