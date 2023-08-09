@@ -1,6 +1,8 @@
 # pingalive-dotnet
 A tiny Windows command-line tool to continuously ping Telekom´s primary DNS server
 
+![Screenshot](screenshot.png)
+
 ### What it is
 - It´s a very tiny (~100 lines of code) .NET command line executable for Windows.
 - When executed, it continuously pings a specific server, until closed.
