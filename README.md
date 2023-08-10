@@ -76,7 +76,7 @@ The moment you switch to the _SDK-style project format_ you have the full power 
 - the way easier dependencies/NuGet handling
 - many many more improvements
 
-in your pockets.
+at your hands.
 
 For more information about the _SDK-style project format_ just use your GoogleFu techniques.
 
