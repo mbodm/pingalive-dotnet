@@ -53,7 +53,7 @@ Someone may ask
 
 The reason why i target the old .NET Framework 4.8 is simple: It´s pre-installed on any Windows version, since mid 2019. When i´m using the modern .NET versions, like .NET Core, or .NET 5/6/7 (and i often do so), i have 2 concerns to deal with:
 - Since the newer .NET versions are not pre-installed on Windows, i always have to release 2 versions: A _framework-dependent_ version and a _self-contained_ version.
-- Later one has a size of ~14 MB (since the framework is compiled into it). Which is, for my taste, way too huge for a simple command-line executable.
+- The latter one has a size of ~14 MB (since the framework is compiled into it). Which is, for my taste, way too huge for a simple command-line executable.
 
 Since this application does nothing else than starting a process, there is more benefit in a ~7 KB sized executable (and just a single deployment), than in having all the tasty new features i don´t use in this application. And for the same reason i not increased the C# language version in the project, from C# 7.3 to C# 10 or C# 11 (even when this is very easy and works quite well). I just don´t need it.
 
