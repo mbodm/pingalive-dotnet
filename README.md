@@ -82,7 +82,7 @@ at your hands.
 
 For more information about the _SDK-style project format_ just use your GoogleFu techniques.
 
-### Dev-related #3 - Source code compilation
+### Dev-related #3 - Source code compilation and publish
 
 If you want to customize and build the application on your own, just follow these steps:
 - Make sure Visual Studio 2022 (any edition) is installed with selected "_.NET desktop development_" workload
