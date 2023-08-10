@@ -49,7 +49,7 @@ There also exists a Rust version and a Go (golang) version of this tool. Those v
 
 Someone may ask
 
-> _When writing/rewriting a C#/.NET application in 2023, why not using .NET 6 or .NET 7 and C# 10.0 then?_
+> _When writing/rewriting a C#/.NET application in 2023, why not using .NET 6 or .NET 7 and C# 10/11 then?_
 
 The reason why i target the old .NET Framework 4.8 is simple: It´s pre-installed on any Windows version, since mid 2019. When i´m using the modern .NET versions, like .NET Core, or .NET 5/6/7 (and i often do so), i have 2 concerns to deal with:
 - Since the newer .NET versions are not pre-installed on Windows, i always have to release 2 versions: A _framework-dependent_ version and a _self-contained_ version.
