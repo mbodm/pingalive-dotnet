@@ -21,6 +21,7 @@ I wasn´t able to successfully add a batch file (`.bat`) or a link (`.lnk`) to t
 ### Requirements
 - Windows 11 or Windows 10 ("_May 2019 Update_" or later)
 - Or any Windows (7/8/10) with an installed .NET Framework 4.8 runtime
+
 There aren´t any other special requirements. The tool is written as .NET Framework 4.8 application and the .NET Framework 4.8 exists on any Windows (by default, as a system component), since _Windows 10 May 2019 Update_ was released. If you want to run the application with an even earlier Windows version, you just need to install the .NET Framework 4.8 runtime there.
 
 ### Earlier versions
