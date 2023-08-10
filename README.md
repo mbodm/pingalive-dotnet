@@ -46,6 +46,8 @@ There also exists a Rust version and a Go (golang) version of this tool. Those v
 - The tool is developed with _Visual Studio 2022 Version 17.6.5 (Community Edition)_
 - And sadly i __again__ forgot what Sean Connery teached us: "_One ping only!_"
 
+---
+
 ### Dev-related #1 - Why .NET Framework 4.8 is used
 
 Someone may ask
@@ -90,5 +92,7 @@ If you want to customize and build the application on your own, just follow thes
 - Navigate to folder where `PingAlive.csproj` file is located (in example `cd C:\Projects\pingalive-dotnet\src\PingAlive`)
 - Run following command: `dotnet publish -c Release PingAlive.csproj`
 - Now you can find the release binary in"_bin\Release\net48\publish_" folder
+
+---
 
 #### Have fun.
