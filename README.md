@@ -88,6 +88,7 @@ If you want to customize and build the application on your own, just follow thes
 - Make sure Visual Studio 2022 (any edition) is installed with selected "_.NET desktop development_" workload
 - if you are not using Visual Studio -> Make sure you have at least "_.NET Framework 4.8 SDK_" installed
 - Clone or download source code into some folder (in example `C:\Projects`)
+- Edit source code
 - Open a Command Prompt or PowerShell window
 - Navigate to folder where `PingAlive.csproj` file is located (in example `cd C:\Projects\pingalive-dotnet\src\PingAlive`)
 - Run following command: `dotnet publish -c Release PingAlive.csproj`
