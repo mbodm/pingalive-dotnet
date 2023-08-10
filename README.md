@@ -65,6 +65,13 @@ All you have to do, is to create some .NET 6 Console Application, edit the `.csp
 
 If you want to use C# 10 or C# 11 language features, you have to change the C# language version in the project options. If you keep using C# 7.3 (the default language version in .NET Framework 4.8), you have to remove the `<Nullable>enable</Nullable>` and `<ImplicitUsings>enable</ImplicitUsings>` options in the `.csproj` file, since C# 7.3 do not support those features.
 
+The moment you switch to the _SDK-style project format_ you have the full power of
+- the `dotnet` command-line tools
+- the new MSBUILD concepts
+- the way easier dependencies/NuGet handling
+- many many many more improvements
+in your pockets.
+
 ### Dev-Aspects #3 - Source code compilation
 
 If you want to customize and build the application on your own, just follow these steps:
