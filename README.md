@@ -86,7 +86,7 @@ For more information about the _SDK-style project format_ just use your GoogleFu
 
 If you want to customize and build the application on your own, just follow these steps:
 - Make sure Visual Studio 2022 (any edition) is installed with selected "_.NET desktop development_" workload
-- if you are not using Visual Studio -> Make sure you have at least "_.NET Framework 4.8 SDK_" installed
+- if you are not using Visual Studio --> Make sure you have at least "_.NET Framework 4.8 SDK_" installed
 - Clone or download source code into some folder (in example `C:\Projects`)
 - Edit source code
 - Open a Command Prompt or PowerShell window
