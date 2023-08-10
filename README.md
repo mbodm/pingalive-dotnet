@@ -39,7 +39,7 @@ There aren´t any other special requirements. The tool is written as .NET Framew
 ### Dev-Aspects #1 - Why this version exists
 Someone may ask
 
-> When writing/rewriting a C#/.NET application in 2023, why not using .NET 6 or .NET 7 and C# 10.0 then?
+> _When writing/rewriting a C#/.NET application in 2023, why not using .NET 6 or .NET 7 and C# 10.0 then?_
 
 The reason why i target the old .NET Framework 4.8 is simple: It´s pre-installed on any Windows version, since mid 2019. When i´m using the modern .NET versions (.NET Core, .NET 5/6/7), and i often do, i have 2 concerns to deal with:
 - Since the newer .NET versions are not pre-installed on Windows i have to release always 2 versions: A _framework-dependent_ version and a _self-contained_ version.
