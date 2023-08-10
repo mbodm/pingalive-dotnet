@@ -4,14 +4,9 @@ A tiny Windows command-line tool to continuously ping Telekom´s primary DNS ser
 ![Screenshot](screenshot.png)
 
 ### What it is
-- It´s a very tiny (~100 lines of code) command-line executable for Windows.
+- It´s a very tiny (~100 lines of code) .NET command-line executable for Windows.
 - When executed, it continuously pings a specific server, until closed.
 - It´s used for internet connection testing, for my personal use.
-
-##### Side note:
-There also exists a Rust version and a Go (golang) version of this tool. Those versions are exactly the same tool as this one, just written in Rust or Go. They were written in the past. And for the sake of _[insert some weird reason here]_ i just quickly rewrote that rather tiny application in C#/.NET now.
-- For the Rust version have a look at [pingalive](https://github.com/mbodm/pingalive)
-- For the Go version have a look at [pingalive-go](https://github.com/mbodm/pingalive-go)
 
 ### How it works
 - It just executes the Windows `ping` command with `-t 194.25.2.129` as parameters.
@@ -27,6 +22,11 @@ I wasn´t able to successfully add a batch file (`.bat`) or a link (`.lnk`) to t
 - Windows 11 or Windows 10 (_May 2019 Update_ or later)
 - Or any Windows (7/8/10) with an installed .NET Framework 4.8 runtime
 There aren´t any other special requirements. The tool is written as .NET Framework 4.8 application and the .NET Framework 4.8 exists on any Windows (by default, as a system component), since _Windows 10 May 2019 Update_ was released. If you want to run the application with an even earlier Windows version, you just need to install the .NET Framework 4.8 runtime there.
+
+### Earlier versions
+There also exists a Rust version and a Go (golang) version of this tool. Those versions are exactly the same tool as this one, just written in Rust or Go. They were written in the past. And for the sake of _[insert some weird reason here]_ i just quickly rewrote that rather tiny application in C#/.NET now.
+- For the Rust version have a look at [pingalive](https://github.com/mbodm/pingalive)
+- For the Go version have a look at [pingalive-go](https://github.com/mbodm/pingalive-go)
 
 ### Notes
 - The tool is written in C# 7.3 with .NET Framework 4.8 (reason: see section above)
