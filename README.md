@@ -33,6 +33,7 @@ The tool is written as .NET Framework 4.8 application and the .NET Framework 4.8
 ### Other versions
 
 There also exists a Rust version and a Go (golang) version of this tool. Those versions are exactly the same tool as this one, just written in Rust or Go. They were written in the past. And for the sake of _[insert some weird reason here]_ i just quickly rewrote that rather tiny application in C#/.NET now.
+
 - For the Rust version have a look at [pingalive](https://github.com/mbodm/pingalive)
 - For the Go version have a look at [pingalive-go](https://github.com/mbodm/pingalive-go)
 
@@ -52,6 +53,7 @@ Someone may ask
 > _When writing/rewriting a C#/.NET application in 2023, why not using .NET 6 or .NET 7 and C# 10/11 then?_
 
 The reason why i target the old .NET Framework 4.8 is simple: It´s pre-installed on any Windows version, since mid 2019. When i´m using the modern .NET versions, like .NET Core, or .NET 5/6/7 (and i often do so), i have 2 concerns to deal with:
+
 - Since the newer .NET versions are not pre-installed on Windows, i always have to release 2 versions: A _framework-dependent_ version and a _self-contained_ version.
 - The latter one has a size of ~14 MB (since the framework is compiled into it). Which is, for my taste, way too huge for a simple command-line executable.
 
@@ -68,11 +70,15 @@ All you have to do, is to create some .NET 6 Console Application, edit the `.csp
 If you want to use C# 10 or C# 11 language features, you have to change the C# language version in the project options. If you keep using C# 7.3 (the default language version in .NET Framework 4.8), you have to remove the `<Nullable>enable</Nullable>` and `<ImplicitUsings>enable</ImplicitUsings>` options in the `.csproj` file, since C# 7.3 do not support those features.
 
 The moment you switch to the _SDK-style project format_ you have the full power of
+
 - the `dotnet` command-line tools
 - the new MSBUILD concepts
 - the way easier dependencies/NuGet handling
 - many many many more improvements
+
 in your pockets.
+
+For more information about the _SDK-style project format_ just use your GoogleFu techniques.
 
 ### Dev-related #3 - Source code compilation
 
