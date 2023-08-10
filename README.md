@@ -59,6 +59,12 @@ Since this application does nothing else than starting a process, there is more 
 
 ### Dev-Aspects #2 - Used .NET project format
 
+Way more benefit is in the newer `.csproj` file format. It´s often called "_SDK-style project format_" and i simply love it! It was introduced with .NET Core and improves the handling of .NET projects in general, by a great degree. And the best thing is: You do not need to target .NET Core, or later, to use it! Using it together with old .NET Framework 4.8 works like a charm.
+
+All you have to do, is to create some .NET 6 Console Application, edit the `.csproj` file and change the `net6.0` entry to `net48` and that´s it!
+
+If you want to use C# 10 or C# 11 language features, you have to change the C# language version in the project options. If you keep using C# 7.3 (the default language version in .NET Framework 4.8), you have to remove the `<Nullable>enable</Nullable>` and `<ImplicitUsings>enable</ImplicitUsings>` options in the `.csproj` file, since C# 7.3 do not support those features.
+
 ### Dev-Aspects #3 - Source code compilation
 
 If you want to customize and build the application on your own, just follow these steps:
