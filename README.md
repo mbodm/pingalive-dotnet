@@ -74,7 +74,7 @@ The moment you switch to the _SDK-style project format_ you have the full power 
 - the `dotnet` command-line tools
 - the new MSBUILD concepts
 - the way easier dependencies/NuGet handling
-- many many many more improvements
+- many many more improvements
 
 in your pockets.
 
