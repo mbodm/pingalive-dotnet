@@ -36,7 +36,7 @@ There also exists a Rust version and a Go (golang) version of this tool. Those v
 
 ### Notes
 
-- The tool is written in C# 7.3 with .NET Framework 4.8 (reason: see section above)
+- The tool is written in C# 7.3 with .NET Framework 4.8 (reason: see section below)
 - Release binaries are published as `win7-x86` (the only possible one in .NET 4.8)
 - The tool is developed on a 64-bit Windows 10 machine
 - Used Windows OS version is _Windows 10 Pro 22H2 Build 19045.3208_
