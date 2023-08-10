@@ -59,7 +59,7 @@ Since this application does nothing else than starting a process, there is more 
 
 ### Dev-Aspects #2 - Used .NET project format
 
-Way more benefit is in the newer `.csproj` file format. It´s often called "_SDK-style project format_" and i simply love it! It was introduced with .NET Core and improves the handling of .NET projects in general, by a great degree. And the best thing is: You do not need to target .NET Core, or later, to use it! Using it together with old .NET Framework 4.8 works like a charm.
+Way more benefit is in the newer `.csproj` file format. It´s often called "_SDK-style project format_" and i simply love it! It was introduced with .NET Core and improves the handling of .NET projects in general, by a great degree. And the best thing is: You don´t need to target .NET Core (or later) to use it! Using it together with old .NET Framework 4.8 works like a charm.
 
 All you have to do, is to create some .NET 6 Console Application, edit the `.csproj` file and change the `net6.0` entry to `net48` and that´s it!
 
