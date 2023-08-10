@@ -45,7 +45,7 @@ There also exists a Rust version and a Go (golang) version of this tool. Those v
 - The tool is developed with _Visual Studio 2022 Version 17.6.5 (Community Edition)_
 - And sadly i __again__ forgot what Sean Connery teached us: "_One ping only!_"
 
-### Dev-Aspects #1 - Why .NET Framework 4.8 is used
+### Dev-related #1 - Why .NET Framework 4.8 is used
 
 Someone may ask
 
@@ -59,7 +59,7 @@ Since this application does nothing else than starting a process, there is more 
 
 And for the same reason i not increased the C# language version in the project, from C# 7.3 to C# 10 or C# 11 (even when this is very easy and works quite well). I just don´t need it.
 
-### Dev-Aspects #2 - Used .NET project format
+### Dev-related #2 - Used .NET project format
 
 Way more benefit is in the newer `.csproj` file format. It´s often called "_SDK-style project format_" and i simply love it! It was introduced with .NET Core and improves the handling of .NET projects in general, by a great degree. And the best thing is: You don´t need to target .NET Core (or later) to use it! Using it together with old .NET Framework 4.8 works like a charm.
 
@@ -74,7 +74,7 @@ The moment you switch to the _SDK-style project format_ you have the full power 
 - many many many more improvements
 in your pockets.
 
-### Dev-Aspects #3 - Source code compilation
+### Dev-related #3 - Source code compilation
 
 If you want to customize and build the application on your own, just follow these steps:
 - Make sure Visual Studio 2022 (any edition) is installed with selected "_.NET desktop development_" workload
