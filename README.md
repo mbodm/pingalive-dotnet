@@ -41,7 +41,7 @@ There also exists a Rust version and a Go (golang) version of this tool. Those v
 - The tool is developed on a 64-bit Windows 10 machine
 - Used Windows OS version is _Windows 10 Pro 22H2 Build 19045.3208_
 - The tool is developed with _Visual Studio 2022 Version 17.6.5 (Community Edition)_
-- And sadly i *again* forgot what Sean Connery teached us: "_One ping only!_"
+- And sadly i __again__ forgot what Sean Connery teached us: "_One ping only!_"
 
 ### Dev-Aspects #1 - Why this version exists
 
