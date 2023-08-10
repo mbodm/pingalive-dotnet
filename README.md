@@ -92,7 +92,7 @@ If you want to customize and build the application on your own, just follow thes
 - Open a Command Prompt or PowerShell window
 - Navigate to folder where `PingAlive.csproj` file is located (in example `cd C:\Projects\PingAlive`)
 - Run following command: `dotnet publish -c Release PingAlive.csproj`
-- Now you can find the release binary in"_bin\Release\net48\publish_" folder
+- Now you can find the release binary in "_bin\Release\net48\publish_" folder
 
 ---
 
