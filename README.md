@@ -46,6 +46,7 @@ There also exists a Rust version and a Go (golang) version of this tool. Those v
 - And sadly i __again__ forgot what Sean Connery teached us: "_One ping only!_"
 
 ### Dev-Aspects #1 - Why .NET Framework 4.8 is used
+
 Someone may ask
 
 > _When writing/rewriting a C#/.NET application in 2023, why not using .NET 6 or .NET 7 and C# 10.0 then?_
