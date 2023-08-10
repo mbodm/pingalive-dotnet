@@ -28,7 +28,23 @@ I wasn´t able to successfully add a batch file (`.bat`) or a link (`.lnk`) to t
 - Or any Windows (7/8/10) with an installed .NET Framework 4.8 runtime
 There aren´t any other special requirements. The tool is written as .NET Framework 4.8 application and the .NET Framework 4.8 exists on any Windows (by default, as a system component), since _Windows 10 May 2019 Update_ was released. If you want to run the application with an even earlier Windows version, you just need to install the .NET Framework 4.8 runtime there.
 
-### Source code compilation
+### Notes
+- The tool is written in C# 7.3 with .NET Framework 4.8 (reason: see section above)
+- Release binaries are published as `win7-x86` (the only possible one in .NET 4.8)
+- The tool is developed on a 64-bit Windows 10 machine
+- Used Windows OS version is _Windows 10 Pro 22H2 Build 19045.3208_
+- The tool is developed with _Visual Studio 2022 Version 17.6.5 (Community Edition)_
+- And sadly i *again* forgot what Sean Connery teached us: "_One ping only!_"
+
+### Dev-Aspects #1 - Why this version exists
+Someone may ask "_When writing/rewriting a C#/.NET application in 2023, why not using .NET 6 or .NET 7 and C# 10.0 then_"? The reason why i target the old .NET Framework 4.8 is simple: It´s pre-installed on any Windows version, since mid 2019. When i´m using the modern .NET versions (.NET Core, .NET 5/6/7), and i often do, i have 2 concerns to deal with:
+- Since the newer .NET versions are not pre-installed on Windows i have to release always 2 versions: A _framework-dependent_ version and a _self-contained_ version.
+- Later one has a size of ~14 MB (since the framework is compiled into it). Which is, for my taste, way too huge for a simple command-line executable.
+Since this application does nothing else than starting a process, there is more benefit in a ~7 KB sized executable (and just a single deployment), than in having all the tasty new features i don´t use in this application. And for the same reason i not increased the C# language version in the project, from 7.3 to 10.0 (even when this is very easy and works quite well). I just don´t need it.
+
+### Dev-Aspects #2 - Used .NET project format
+
+### Dev-Aspects #3 - Source code compilation
 If you want to customize and build the application on your own, just follow these steps:
 - Make sure Visual Studio 2022 (any edition) is installed with selected "_.NET desktop development_" workload
 - Or make sure you have at least "_.NET Framework 4.8 SDK_" installed if you are not using Visual Studio
@@ -38,11 +54,4 @@ If you want to customize and build the application on your own, just follow thes
 - Run following command: `dotnet publish -c Release PingAlive.csproj`
 - Now you can find the release binary in"_bin\Release\net48\publish_" folder
 
-### Notes
-- The tool is written in C# 7.3 with .NET Framework 4.8 (reason: see section above)
-- Release binaries are published as `win7-x86` (the only possible one in .NET 4.8)
-- The tool is developed on a 64-bit Windows 10 machine
-- Used Windows OS version is _Windows 10 Pro 22H2 Build 19045.3208_
-- The tool is developed with _Visual Studio 2022 Version 17.6.5 (Community Edition)_
-- And sadly i *again* forgot what Sean Connery teached us: "_One ping only!_"
-
+#### Have fun.
