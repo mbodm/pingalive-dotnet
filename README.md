@@ -24,7 +24,7 @@ I wasn´t able to successfully add a batch file (`.bat`) or a link (`.lnk`) to t
 ### Requirements
 
 - Windows 11 or Windows 10 ("_May 2019 Update_" or later)
-- Or any Windows (Win7, Win8, old Win10) with an installed .NET Framework 4.8 runtime
+- Or any Windows (Win7, Win8, Win10 before 05/19) with an installed .NET Framework 4.8 runtime
 
 There aren´t any other special requirements.
 
